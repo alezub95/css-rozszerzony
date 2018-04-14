@@ -1,0 +1,8 @@
+#tlo-obrazek {
+    background-image: url("../img/kot.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
