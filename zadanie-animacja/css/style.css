@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+    color: #fff;
+}
+
+.count {
+    position: relative;
+
+}
+
+.number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    margin-top: 25%;
+    margin-left: 25%;
+    font-size: 100px;
+}
+
+#ten, #nine, #eight, #seven, #six, #five, #four, #three, #two, #one, #love {
+    visibility: hidden;
+}
+
+@keyframes count {
+    0% {
+        visibility: hidden;
+    }
+    99% {
+        visibility: visible;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes end {
+    0% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+
+}
+
+#ten {
+    animation-name: count;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+#nine {
+    animation-name: count;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+#eight {
+    animation-name: count;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+
+#seven {
+    animation-name: count;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 3s;
+}
+
+#six {
+    animation-name: count;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 4s;
+}
+
+#five {
+    animation-name: count;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 5s;
+}
+
+#four {
+    animation-name: count;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 6s;
+}
+
+#three {
+    animation-name: count;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 7s;
+}
+
+#two {
+    animation-name: count;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 8s;
+}
+
+#one {
+    animation-name: count;
+    animation-fill-mode: forwards
+    animation-duration: 1s;
+    animation-delay: 9s;
+}
+
+#love {
+    animation-name: end;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 10s;
+}
